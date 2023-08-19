@@ -1,0 +1,17 @@
+header {
+    height: 130vh;
+    background: linear-gradient(90deg, #e25151, #f1ca2b);
+    background-size: 200% 200%;
+    animation: GA 10s ease infinite;
+    
+}
+@keyframes GA {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
